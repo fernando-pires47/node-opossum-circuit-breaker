@@ -1,5 +1,5 @@
-# Node circuit breaker using opossum library
-This node application is a super simple circuit breaker example using opossum library.
+# Node circuit breaker using Opossum library
+This node application is a super simple circuit breaker example using Opossum library.
 
 ### Dependencies
 * Docker
