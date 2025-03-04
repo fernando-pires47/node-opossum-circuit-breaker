@@ -1,0 +1,27 @@
+{
+  "name": "node-opossum-circuit-breaker",
+  "version": "1.0.0",
+  "description": "Simple circuit-breaker functionality applying using Opossum library",
+  "author": "Fernando Pires",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "scripts": {
+    "start:docker": "sudo docker compose -f docker-compose.dev.yml up --build",
+    "build": "tsc",
+    "start": "npm run dist/index.js",
+    "start:dev": "nodemon --verbose --delay 500ms --watch 'src/' --exec 'ts-node src/index.ts' -e ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "axios": "^1.8.1",
+    "dotenv": "^16.4.7",
+    "opossum": "^8.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.1",
+    "@types/opossum": "^8.1.8",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  }
+}

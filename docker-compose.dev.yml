@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  circuit-breaker-service:
+    build:
+      dockerfile: Dockerfile.dev
+    container_name: circuit-breaker
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+      - "9229:9229"
+    networks:
+      - custom_network
+
+networks:
+  custom_network:
+    driver: bridge
