@@ -115,7 +115,7 @@ circuit-breaker  | }
 
 ### API Mock app to test the behaviors.
 
-Commonly, I work out with the [Webhook site](https://webhook.site/) to create a mock API. It's a great solution to view the requests coming and manipulate the responses. Also, if you want a simplest service, you can use [Mocky site]([https://webhook.site/](https://designer.mocky.io/manage)).
+Commonly, I work out with the [Webhook site](https://webhook.site/) to create a mock API. It's a great solution to view the requests coming and manipulate the responses. Also, if you want a simplest service, you can use [Mocky site](https://designer.mocky.io/manage).
 
 ## License
 
